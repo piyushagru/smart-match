@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="src/assets/myntraLogo.svg" />
-    <title>Myntra Hackerrank Demo</title>
-    <link rel="stylesheet" href="src/styles/myntraDetailPage.css">
+    <link rel="icon" href="src/assets/mLogo-2.png" />
+    <title>Hackerrank Demo</title>
+    <link rel="stylesheet" href="src/styles/mDetailPage.css">
     <style>
       .smart-match-section {
         padding: 20px;
@@ -66,6 +66,26 @@
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       }
       
+      .disclaimer {
+        margin-top: 30px;
+        padding: 8px 15px;
+        background-color: transparent;
+        border: none;
+        font-size: 9px;
+        color: #999;
+        line-height: 1.3;
+        text-align: center;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.7;
+      }
+      
+      .disclaimer strong {
+        font-weight: normal;
+        color: #999;
+      }
+      
       @media (max-width: 1200px) {
         .product-container {
           flex-direction: column;
@@ -75,12 +95,18 @@
         .smart-match-section {
           margin-bottom: 30px;
         }
+        
+        .disclaimer {
+          margin: 30px 15px 0 15px;
+          font-size: 8px;
+          opacity: 0.6;
+        }
       }
     </style>
 </head>
 <body>
 <header class="sticky-header">
-    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2021/02/myntra-logo-freelogovectors.net_.png" alt="">
+    <img src="src/assets/mLogo.png" alt="">
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -131,6 +157,9 @@
 
 <footer>
     <p>&copy; 2023 Made with <span class="heart">&hearts;</span> by TheChibiTeam</p>
+    <div class="disclaimer">
+        <p><strong>DISCLAIMER:</strong> This page was created as part of a HackerRamp Phase 2 Implementation submission. This is NOT the official website of the company or brand shown. The creator is NOT affiliated with the company or brand in any way. This is a hackathon demo project for educational purposes only.</p>
+    </div>
 </footer>
 
 <!-- Add jQuery -->
